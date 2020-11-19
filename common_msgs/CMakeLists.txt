@@ -9,9 +9,9 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 # Generate messages in the 'msg' folder
-add_message_files(
+add_service_files(
   FILES
-  Vectors.msg
+  AddFourNum.srv
 )
 # Generate added messages and services with any dependencies listed here
 generate_messages(
